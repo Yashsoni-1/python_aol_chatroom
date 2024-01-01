@@ -8,8 +8,6 @@ from tkinter import PhotoImage, StringVar, DISABLED, NORMAL, END
 #Define Window
 root = TK.Tk()
 root.title("Chat Client")
-icon = PhotoImage(file='icons/speech-bubble.png')
-root.iconphoto(True, icon)
 root.geometry('600x600')
 root.resizable(0, 0)
 
